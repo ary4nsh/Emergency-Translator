@@ -228,15 +228,7 @@ No data leaves the device. The app does not include any analytics library, crash
 
 Source-level documentation is co-located with each Kotlin file as a `.md` file in the same directory. A master index is at [`Documentation/INDEX.md`](Documentation/INDEX.md).
 
-Project management documentation (architecture, sprint records, decision log, risk register, testing notes) is in the [`notion/`](notion/) folder, structured as a Notion-compatible knowledge base:
-
-- [`notion/00_Project_Overview.md`](notion/00_Project_Overview.md)
-- [`notion/03_Architecture.md`](notion/03_Architecture.md)
-- [`notion/04_Technical_Decisions.md`](notion/04_Technical_Decisions.md)
-- [`notion/11_Database_Documentation.md`](notion/11_Database_Documentation.md)
-- [`notion/12_API_Documentation.md`](notion/12_API_Documentation.md)
-- [`notion/13_Known_Issues.md`](notion/13_Known_Issues.md)
-- [`notion/16_Future_Roadmap.md`](notion/16_Future_Roadmap.md)
+Project management documentation (architecture, sprint records, decision log, risk register, testing notes) is in this link, structured as a Notion-compatible knowledge base: https://app.notion.com/p/Project-Overview-38e810b037e980629633dcf240fd4c31
 
 ---
 
