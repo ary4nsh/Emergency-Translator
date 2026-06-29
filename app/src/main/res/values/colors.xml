@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ── Blue palette ─────────────────────────────────────────────── -->
+    <color name="blue_light_primary">#1565C0</color>
+    <color name="blue_light_onPrimary">#FFFFFF</color>
+    <color name="blue_light_primaryContainer">#BBDEFB</color>
+    <color name="blue_light_onPrimaryContainer">#0D47A1</color>
+    <color name="blue_light_secondary">#0277BD</color>
+    <color name="blue_light_onSecondary">#FFFFFF</color>
+    <color name="blue_light_secondaryContainer">#E1F5FE</color>
+    <color name="blue_light_onSecondaryContainer">#01579B</color>
+
+    <color name="blue_dark_primary">#90CAF9</color>
+    <color name="blue_dark_onPrimary">#0D47A1</color>
+    <color name="blue_dark_primaryContainer">#1565C0</color>
+    <color name="blue_dark_onPrimaryContainer">#BBDEFB</color>
+    <color name="blue_dark_secondary">#81D4FA</color>
+    <color name="blue_dark_onSecondary">#01579B</color>
+    <color name="blue_dark_secondaryContainer">#0277BD</color>
+    <color name="blue_dark_onSecondaryContainer">#E1F5FE</color>
+
+    <!-- ── Green palette ─────────────────────────────────────────────── -->
+    <color name="green_light_primary">#2E7D32</color>
+    <color name="green_light_onPrimary">#FFFFFF</color>
+    <color name="green_light_primaryContainer">#C8E6C9</color>
+    <color name="green_light_onPrimaryContainer">#1B5E20</color>
+    <color name="green_light_secondary">#388E3C</color>
+    <color name="green_light_onSecondary">#FFFFFF</color>
+    <color name="green_light_secondaryContainer">#E8F5E9</color>
+    <color name="green_light_onSecondaryContainer">#1B5E20</color>
+
+    <color name="green_dark_primary">#A5D6A7</color>
+    <color name="green_dark_onPrimary">#1B5E20</color>
+    <color name="green_dark_primaryContainer">#2E7D32</color>
+    <color name="green_dark_onPrimaryContainer">#C8E6C9</color>
+    <color name="green_dark_secondary">#80CBC4</color>
+    <color name="green_dark_onSecondary">#004D40</color>
+    <color name="green_dark_secondaryContainer">#00695C</color>
+    <color name="green_dark_onSecondaryContainer">#B2DFDB</color>
+
+    <!-- ── Red palette ───────────────────────────────────────────────── -->
+    <color name="red_light_primary">#C62828</color>
+    <color name="red_light_onPrimary">#FFFFFF</color>
+    <color name="red_light_primaryContainer">#FFCDD2</color>
+    <color name="red_light_onPrimaryContainer">#7F0000</color>
+    <color name="red_light_secondary">#B71C1C</color>
+    <color name="red_light_onSecondary">#FFFFFF</color>
+    <color name="red_light_secondaryContainer">#FFEBEE</color>
+    <color name="red_light_onSecondaryContainer">#7F0000</color>
+
+    <color name="red_dark_primary">#FFB3B1</color>
+    <color name="red_dark_onPrimary">#680000</color>
+    <color name="red_dark_primaryContainer">#930009</color>
+    <color name="red_dark_onPrimaryContainer">#FFCDD2</color>
+    <color name="red_dark_secondary">#FFB4AB</color>
+    <color name="red_dark_onSecondary">#561E1A</color>
+    <color name="red_dark_secondaryContainer">#73332F</color>
+    <color name="red_dark_onSecondaryContainer">#FFCDD2</color>
+
+    <!-- ── Shared light neutrals ─────────────────────────────────────── -->
+    <color name="light_background">#FAFAFA</color>
+    <color name="light_onBackground">#1C1B1F</color>
+    <color name="light_surface">#FAFAFA</color>
+    <color name="light_onSurface">#1C1B1F</color>
+    <color name="light_surfaceVariant">#E7E0EC</color>
+    <color name="light_onSurfaceVariant">#49454F</color>
+    <color name="light_outline">#79747E</color>
+    <color name="light_error">#B3261E</color>
+    <color name="light_onError">#FFFFFF</color>
+
+    <!-- ── Shared dark neutrals ──────────────────────────────────────── -->
+    <color name="dark_background">#1C1B1F</color>
+    <color name="dark_onBackground">#E6E1E5</color>
+    <color name="dark_surface">#1C1B1F</color>
+    <color name="dark_onSurface">#E6E1E5</color>
+    <color name="dark_surfaceVariant">#49454F</color>
+    <color name="dark_onSurfaceVariant">#CAC4D0</color>
+    <color name="dark_outline">#938F99</color>
+    <color name="dark_error">#F2B8B5</color>
+    <color name="dark_onError">#601410</color>
+
+    <!-- Splash screen background (always red regardless of theme) -->
+    <color name="splash_background">#C62828</color>
+
+</resources>

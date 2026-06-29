@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default alias referenced in AndroidManifest.xml -->
+    <style name="Theme.EmergencyTranslator" parent="Theme.EmergencyTranslator.Light.Blue" />
+
+    <!-- Splash: always red window background; setTheme() in MainActivity overrides the rest -->
+    <style name="Theme.EmergencyTranslator.Splash" parent="Theme.EmergencyTranslator.Light.Red">
+        <item name="android:windowBackground">@color/splash_background</item>
+        <item name="android:statusBarColor">@color/splash_background</item>
+        <item name="android:navigationBarColor">@color/splash_background</item>
+    </style>
+
+    <!-- ── White + Blue ───────────────────────────────────────────────── -->
+    <style name="Theme.EmergencyTranslator.Light.Blue" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue_light_primary</item>
+        <item name="colorOnPrimary">@color/blue_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/blue_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/blue_light_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/blue_light_secondary</item>
+        <item name="colorOnSecondary">@color/blue_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/blue_light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/blue_light_onSecondaryContainer</item>
+        <item name="android:colorBackground">@color/light_background</item>
+        <item name="colorOnBackground">@color/light_onBackground</item>
+        <item name="colorSurface">@color/light_surface</item>
+        <item name="colorOnSurface">@color/light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/light_onSurfaceVariant</item>
+        <item name="colorOutline">@color/light_outline</item>
+        <item name="colorError">@color/light_error</item>
+        <item name="colorOnError">@color/light_onError</item>
+        <item name="android:navigationBarColor">@color/light_background</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <!-- ── White + Green ──────────────────────────────────────────────── -->
+    <style name="Theme.EmergencyTranslator.Light.Green" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/green_light_primary</item>
+        <item name="colorOnPrimary">@color/green_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/green_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/green_light_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/green_light_secondary</item>
+        <item name="colorOnSecondary">@color/green_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/green_light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/green_light_onSecondaryContainer</item>
+        <item name="android:colorBackground">@color/light_background</item>
+        <item name="colorOnBackground">@color/light_onBackground</item>
+        <item name="colorSurface">@color/light_surface</item>
+        <item name="colorOnSurface">@color/light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/light_onSurfaceVariant</item>
+        <item name="colorOutline">@color/light_outline</item>
+        <item name="colorError">@color/light_error</item>
+        <item name="colorOnError">@color/light_onError</item>
+        <item name="android:navigationBarColor">@color/light_background</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <!-- ── White + Red ────────────────────────────────────────────────── -->
+    <style name="Theme.EmergencyTranslator.Light.Red" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/red_light_primary</item>
+        <item name="colorOnPrimary">@color/red_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/red_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/red_light_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/red_light_secondary</item>
+        <item name="colorOnSecondary">@color/red_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/red_light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/red_light_onSecondaryContainer</item>
+        <item name="android:colorBackground">@color/light_background</item>
+        <item name="colorOnBackground">@color/light_onBackground</item>
+        <item name="colorSurface">@color/light_surface</item>
+        <item name="colorOnSurface">@color/light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/light_onSurfaceVariant</item>
+        <item name="colorOutline">@color/light_outline</item>
+        <item name="colorError">@color/light_error</item>
+        <item name="colorOnError">@color/light_onError</item>
+        <item name="android:navigationBarColor">@color/light_background</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <!-- ── Dark + Blue ────────────────────────────────────────────────── -->
+    <style name="Theme.EmergencyTranslator.Dark.Blue" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/blue_dark_primary</item>
+        <item name="colorOnPrimary">@color/blue_dark_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/blue_dark_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/blue_dark_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/blue_dark_secondary</item>
+        <item name="colorOnSecondary">@color/blue_dark_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/blue_dark_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/blue_dark_onSecondaryContainer</item>
+        <item name="android:colorBackground">@color/dark_background</item>
+        <item name="colorOnBackground">@color/dark_onBackground</item>
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorOnSurface">@color/dark_onSurface</item>
+        <item name="colorSurfaceVariant">@color/dark_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/dark_onSurfaceVariant</item>
+        <item name="colorOutline">@color/dark_outline</item>
+        <item name="colorError">@color/dark_error</item>
+        <item name="colorOnError">@color/dark_onError</item>
+        <item name="android:navigationBarColor">@color/dark_background</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <!-- ── Dark + Red ────────────────────────────────────────────────── -->
+    <style name="Theme.EmergencyTranslator.Dark.Red" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/red_dark_primary</item>
+        <item name="colorOnPrimary">@color/red_dark_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/red_dark_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/red_dark_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/red_dark_secondary</item>
+        <item name="colorOnSecondary">@color/red_dark_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/red_dark_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/red_dark_onSecondaryContainer</item>
+        <item name="android:colorBackground">@color/dark_background</item>
+        <item name="colorOnBackground">@color/dark_onBackground</item>
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorOnSurface">@color/dark_onSurface</item>
+        <item name="colorSurfaceVariant">@color/dark_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/dark_onSurfaceVariant</item>
+        <item name="colorOutline">@color/dark_outline</item>
+        <item name="colorError">@color/dark_error</item>
+        <item name="colorOnError">@color/dark_onError</item>
+        <item name="android:navigationBarColor">@color/dark_background</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <!-- ── Dark + Green ───────────────────────────────────────────────── -->
+    <style name="Theme.EmergencyTranslator.Dark.Green" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/green_dark_primary</item>
+        <item name="colorOnPrimary">@color/green_dark_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/green_dark_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/green_dark_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/green_dark_secondary</item>
+        <item name="colorOnSecondary">@color/green_dark_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/green_dark_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/green_dark_onSecondaryContainer</item>
+        <item name="android:colorBackground">@color/dark_background</item>
+        <item name="colorOnBackground">@color/dark_onBackground</item>
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorOnSurface">@color/dark_onSurface</item>
+        <item name="colorSurfaceVariant">@color/dark_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/dark_onSurfaceVariant</item>
+        <item name="colorOutline">@color/dark_outline</item>
+        <item name="colorError">@color/dark_error</item>
+        <item name="colorOnError">@color/dark_onError</item>
+        <item name="android:navigationBarColor">@color/dark_background</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+</resources>

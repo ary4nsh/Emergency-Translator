@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Emergency Translator</string>
+    <string name="app_subtitle">Communicate in crisis situations</string>
+
+    <!-- Home screen — free translation section -->
+    <string name="enter_text_hint">Type or speak your emergency message…</string>
+    <string name="translate_to_label">Translate to:</string>
+    <string name="translate_button">Translate</string>
+    <string name="speak">Speak</string>
+    <string name="listening">Listening…</string>
+    <string name="clear">Clear</string>
+    <string name="play_translation">Play</string>
+    <string name="copy_translation">Copy</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="detected_language_label">Detected: %s</string>
+    <string name="translation_result_title">Translation</string>
+
+    <!-- Home screen — quick emergency actions -->
+    <string name="quick_actions_title">Quick Emergency Actions</string>
+    <string name="action_medical">Medical Help</string>
+    <string name="action_food">Need Food</string>
+    <string name="action_water">Need Water</string>
+    <string name="action_shelter">Need Shelter</string>
+    <string name="action_evacuation">Evacuation</string>
+    <string name="phrase_medical">I need medical assistance.</string>
+    <string name="phrase_food">I need food and water.</string>
+    <string name="phrase_water">I need clean water.</string>
+    <string name="phrase_shelter">I need shelter.</string>
+    <string name="phrase_evacuation">We need evacuation.</string>
+
+    <!-- Phrases screen -->
+    <string name="emergency_phrases_title">Emergency Phrases</string>
+    <string name="tap_phrase_hint">Tap a phrase to hear its translation</string>
+    <string name="original_phrase_label">Original phrase</string>
+    <string name="translated_phrase_label">Translation</string>
+    <string name="search_phrases_hint">Search emergency phrases…</string>
+    <string name="category_all">All</string>
+    <string name="category_favorites">Favorites</string>
+    <string name="no_phrases_found">No phrases found</string>
+
+    <!-- TTS error messages -->
+    <string name="tts_missing_data">Voice for %s is not installed. Speaking English instead.</string>
+    <string name="tts_install_action">Install Voice</string>
+    <string name="tts_not_supported">This language is not supported by your device\'s TTS engine.</string>
+
+    <!-- Settings screen -->
+    <string name="settings_title">Settings</string>
+    <string name="dark_mode_label">Dark Mode</string>
+    <string name="theme_color_label">Theme Color</string>
+    <string name="about_section_title">About</string>
+    <string name="app_version_label">Version %s</string>
+    <string name="app_description">Emergency Translator helps refugees, disaster victims, and displaced people communicate with emergency responders across language barriers.</string>
+    <string name="offline_mode_status">Translation mode: Fully offline — no internet required</string>
+    <string name="supported_languages_label">Supported languages: English, Arabic, Persian, Turkish, Russian, Ukrainian</string>
+
+    <!-- Navigation labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_phrases">Phrases</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Error / status messages -->
+    <string name="mic_permission_denied">Microphone permission is required to use speech input.</string>
+    <string name="speech_not_available">Speech recognition is not available on this device.</string>
+    <string name="speech_error">Could not understand speech. Please try again.</string>
+    <string name="tts_language_not_supported">Text-to-speech for this language is not installed on your device.</string>
+    <string name="no_input_error">Please enter text or use the microphone.</string>
+</resources>

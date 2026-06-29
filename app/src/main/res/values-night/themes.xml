@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Night mode is managed explicitly by ThemeManager (AppCompatDelegate.MODE_NIGHT_NO is set
+    globally). This file is kept as a neutral fallback; setTheme() in MainActivity always
+    applies the correct explicit theme before views are inflated.
+-->
+<resources>
+    <style name="Theme.EmergencyTranslator" parent="Theme.EmergencyTranslator.Light.Blue" />
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Medical cross / emergency symbol for the splash screen -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- White circle background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,10 a50,50 0 1,1 0,100 a50,50 0 1,1 0,-100 Z" />
+    <!-- Red cross -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M45,30 h30 v22 h22 v30 h-22 v22 h-30 v-22 h-22 v-30 h22 Z" />
+</vector>

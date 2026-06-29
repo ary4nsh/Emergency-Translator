@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+
+    <!-- Large touch targets for stressed users in crisis situations -->
+    <dimen name="button_height_large">56dp</dimen>
+    <dimen name="mic_button_size">64dp</dimen>
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+
+    <dimen name="text_size_body">16sp</dimen>
+    <dimen name="text_size_translation">20sp</dimen>
+    <dimen name="text_size_title">24sp</dimen>
+    <dimen name="text_size_splash_title">32sp</dimen>
+</resources>
