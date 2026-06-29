@@ -1,0 +1,53 @@
+Êþº¾   = É %com/emergency/translator/MainActivity   (androidx/appcompat/app/AppCompatActivity   <init> ()V  
+    this 'Lcom/emergency/translator/MainActivity; onCreate (Landroid/os/Bundle;)V $Lorg/jetbrains/annotations/Nullable; /com/emergency/translator/ui/common/ThemeManager   INSTANCE 1Lcom/emergency/translator/ui/common/ThemeManager;  	   android/content/Context   
+getThemeResId (Landroid/content/Context;)I  
+   setTheme (I)V  
+   
+ 
+   getLayoutInflater ()Landroid/view/LayoutInflater;   !
+  " 8com/emergency/translator/databinding/ActivityMainBinding  $  inflate Y(Landroid/view/LayoutInflater;)Lcom/emergency/translator/databinding/ActivityMainBinding; & '
+ % ( inflate(...) * kotlin/jvm/internal/Intrinsics  , checkNotNullExpressionValue '(Ljava/lang/Object;Ljava/lang/String;)V . /
+ - 0  binding :Lcom/emergency/translator/databinding/ActivityMainBinding; 2 3	  4 2 )throwUninitializedPropertyAccessException (Ljava/lang/String;)V 7 8
+ - 9  getRoot ()Landroid/widget/LinearLayout; ; <
+ % = android/view/View  ? setContentView (Landroid/view/View;)V A B
+  C getSupportFragmentManager )()Landroidx/fragment/app/FragmentManager; E F
+  G com/emergency/translator/R$id  I nav_host_fragment I K L	 J M %androidx/fragment/app/FragmentManager  O findFragmentById #(I)Landroidx/fragment/app/Fragment; Q R
+ P S Qnull cannot be cast to non-null type androidx.navigation.fragment.NavHostFragment U checkNotNull W /
+ - X ,androidx/navigation/fragment/NavHostFragment  Z getNavController %()Landroidx/navigation/NavController; \ ]
+ [ ^ bottomNavigationView CLcom/google/android/material/bottomnavigation/BottomNavigationView; ` a	 % b ` 8com/google/android/material/navigation/NavigationBarView  e -androidx/navigation/ui/BottomNavigationViewKt  g setupWithNavController `(Lcom/google/android/material/navigation/NavigationBarView;Landroidx/navigation/NavController;)V i j
+ h k ](Landroidx/navigation/NavController;Landroidx/navigation/NavDestination;Landroid/os/Bundle;)V m onCreate$lambda$0 „(Lcom/emergency/translator/MainActivity;Landroidx/navigation/NavController;Landroidx/navigation/NavDestination;Landroid/os/Bundle;)V o p
+  q r "java/lang/invoke/LambdaMetafactory  t 
+metafactory Ì(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite; v w
+ u x y onDestinationChanged i(Lcom/emergency/translator/MainActivity;)Landroidx/navigation/NavController$OnDestinationChangedListener; { |   } !androidx/navigation/NavController   addOnDestinationChangedListener C(Landroidx/navigation/NavController$OnDestinationChangedListener;)V  ‚
+ € ƒ navHostFragment .Landroidx/navigation/fragment/NavHostFragment; 
+navController #Landroidx/navigation/NavController; savedInstanceState Landroid/os/Bundle; android/os/Bundle  ‹ this$0  checkNotNullParameter  /
+ -  <anonymous parameter 0> ’ 
+destination ” "androidx/navigation/NavDestination  – getId ()I ˜ ™
+ — š splashFragment œ L	 J  Acom/google/android/material/bottomnavigation/BottomNavigationView  Ÿ 
+setVisibility ¡ 
+   ¢ $Landroidx/navigation/NavDestination; 'Ldagger/hilt/android/AndroidEntryPoint; Lkotlin/Metadata; mv      	     k xi   0 d1 `À€
+
+
+
+
+À€
+
+À€
+
+À€ À€20BÂ¢J02 0HR0XÂ‚.Â¢
+À€Â¨	 d2 *Landroidx/appcompat/app/AppCompatActivity;   	app_debug ,androidx/lifecycle/ViewModelProvider$Factory  ´ $androidx/lifecycle/ViewModelProvider  ¶  Factory >androidx/navigation/NavController$OnDestinationChangedListener  ¹ OnDestinationChangedListener com/emergency/translator/R  ¼ id MainActivity.kt Code LineNumberTable LocalVariableTable 
+StackMapTable $RuntimeInvisibleParameterAnnotations InnerClasses 
+SourceFile RuntimeVisibleAnnotations BootstrapMethods 1       2 3        À   /     *· ±    Á       
+ Â        	 
+    
+   À  #     ‚*² *À ¶ ¶ *+· **¶ #¸ )Y+¸ 1µ 5**´ 5YÇ 
+W6¸ :¶ >À @¶ D*¶ H² N¶ TN-V¸ Y-À [M,¶ _N*´ 5YÇ 
+W6¸ :´ cYd¸ 1À f-¸ l-*º ~  ¶ „±    Ã   + ÿ 4     Œ     %ÿ 2     Œ  [  €   % Á   . 
+        $  =  A  H  S  X  w    & Â   *  S / … †  X * ‡ ˆ    ‚ 	 
+     ‚ ‰ Š  Ä      
+    o p  À   £     8*Ž¸ ‘+“¸ ‘,•¸ ‘*´ 5YÇ 
+W6¸ :´ c,¶ ›² ž  § ¶ £±    Ã   ! a  %Q   ÿ       €  —  Œ     Á      ! ( " 3 # 4 ! 7 % Â       8  
+     8 ” ¤   Å     µ · ¸	 º € »	 J ½ ¾  Æ    ¿ Ç   M  ¥   ¦  §[ I ¨I ©I ª «I ¨ ¬I ­ ®[ s ¯ °[ 
+s 
+s ±s s 2s 3s 
+s ²s ‰s Šs ³ È     z  n s n
