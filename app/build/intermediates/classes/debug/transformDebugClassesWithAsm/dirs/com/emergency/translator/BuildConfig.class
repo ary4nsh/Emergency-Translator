@@ -1,0 +1,9 @@
+Êþº¾   = +
+       java/lang/Object <init> ()V  true
+ 
+ 
+   
+  java/lang/Boolean parseBoolean (Ljava/lang/String;)Z	       $com/emergency/translator/BuildConfig DEBUG Z APPLICATION_ID Ljava/lang/String; 
+ConstantValue  com.emergency.translator 
+BUILD_TYPE  debug VERSION_CODE I    VERSION_NAME " 1.5 Code LineNumberTable LocalVariableTable this &Lcom/emergency/translator/BuildConfig; <clinit> 
+SourceFile BuildConfig.java 1                                               !      #   /     *· ±    $        %        & '    (   #   !      	 ¸ 	³ ±    $          )    *
